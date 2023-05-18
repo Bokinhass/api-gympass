@@ -33,8 +33,9 @@ GymPass style app.
 
 ## Comandos
 
+- docker run --name api-gympass-pg -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_PASSWORD=docker -e POSTGRESQL_DATABASE=api-gympass -p 5432:5432 bitnami/postgresql
 - docker start api-gympass-api-gympass-pg-1
 - docker stop api-gympass-api-gympass-pg-1
 - npm run dev
-- npx prisma migrate...
+- npx prisma migrate dev
 - npx prisma studio
