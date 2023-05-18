@@ -30,3 +30,11 @@ GymPass style app.
 - [] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
 - [] Todas listas de dados precisam estar paginadas com 20 itens por página;
 - [] O usuário deve ser identificado por um JWT (JSON Web Token);
+
+## Comandos
+
+- docker start api-gympass-api-gympass-pg-1
+- docker stop api-gympass-api-gympass-pg-1
+- npm run dev
+- npx prisma migrate...
+- npx prisma studio
